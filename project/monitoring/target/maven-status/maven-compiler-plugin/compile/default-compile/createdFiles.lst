@@ -1,0 +1,12 @@
+hdfs_monitor/Master_Json.class
+hdfs_monitor/Infludb_client.class
+hdfs_rpc/Infludb_client.class
+hdfs_rpc/Master_Json.class
+hdfs_rpc/HttpsClient.class
+hdfs_monitor/hdfs_block.class
+hdfs_monitor/Json.class
+hdfs_monitor/HttpsClient.class
+hdfs_monitor/Influxdb.class
+hdfs_rpc/hdfs_rpc.class
+hdfs_rpc/Json.class
+hdfs_rpc/Influxdb.class
