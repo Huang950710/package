@@ -1,4 +1,5 @@
-此文档是 Grfana 与 Kafka Eagle 的告警对接飞书机器人的代码。
+此文档是 Grfana 与 Kafka Eagle 的告警对接飞书机器人的代码，代码启动端口为 654
+Grafan 与 Kafka Eagle 告警渠道都需要设置为 http://127.0.0.1:654 , ip 换成自己启动代码服务器 ip
 
 - 功能说明：
 
