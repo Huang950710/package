@@ -8,12 +8,12 @@ Grafan 与 Kafka Eagle 告警渠道都需要设置为 http://127.0.0.1:654 , ip 
 
 - 使用说明：
 
-         - java -jar Feishu-1.0-SNAPSHOT.jar webhook地址 (Grafana / KafkaEagle)
+         - java -jar Feishu-1.0-SNAPSHOT.jar + webhook地址 + moudle(Grafana / KafkaEagle) + 端口
 
 - 举例：
 
          - 将 Grafana 的告警对接飞书机器人 
-         - java -jar Feishu-1.0-SNAPSHOT.jar https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxxx Grafana
+         - java -jar Feishu-1.0-SNAPSHOT.jar https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxxx Grafana 654
          
          - 将 KafkaEagle 的告警对接飞书机器人
-         - java -jar Feishu-1.0-SNAPSHOT.jar https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxxx KafkaEagle
+         - java -jar Feishu-1.0-SNAPSHOT.jar https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxxx KafkaEagle 654
